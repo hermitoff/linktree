@@ -1,0 +1,45 @@
+:root {
+    --background: #1a1a1a;
+    --background_alt: #111111;
+    --tone-1: #FFD289;
+    --tone-1_alt: #FACC6B;
+    --tone-2: #F4AC32;
+}
+
+body {
+    background-color: var(--background);
+    background-image: url(https://wallpapercave.com/wp/MAZM4pd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #ffffff;
+}
+
+.top_title {
+    text-align: center;
+    color: var(--tone-2);
+    padding: 100px;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    background-color: var(--tone-1_alt);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.link:hover {
+    background-color: var(--tone-2);
+    transform: scale(1.05);
+}
