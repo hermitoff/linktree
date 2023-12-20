@@ -46,12 +46,16 @@ body {
     padding: 5px 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    transition: transform 0.5s, background-color 0.5s;
+    transition: transform 0.2s, background-color 0.5s;
 }
 
 .link:hover {
     background-color: var(--tone-2);
     transform: scale(1.05);
+}
+
+.link:active {
+    transform: scale(0.95);
 }
 
 .social_icons {
